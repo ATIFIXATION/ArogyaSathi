@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F6F0E6;
+    color: #211C17;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Subtle organic paper background texture */
+.paper-texture {
+  background-color: #F6F0E6;
+  background-image: radial-gradient(#211C17 0.4px, transparent 0.4px), radial-gradient(#B94A25 0.3px, #F6F0E6 0.3px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+  background-blend-mode: multiply;
+}
+
+/* Soft paper card styling with delicate border */
+.paper-card {
+  background: #EFE5D5;
+  border: 1px solid #DCCDBB;
+  box-shadow: 0 4px 20px -2px rgba(33, 28, 23, 0.04);
+}
+
+.paper-card-white {
+  background: #FAF7F2;
+  border: 1px solid #E3D7C7;
+  box-shadow: 0 8px 30px -4px rgba(33, 28, 23, 0.06);
+}
+
+/* Custom delicate border lines */
+.border-vintage {
+  border-color: #DCCDBB;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #EFE5D5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D0C1AD;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B94A25;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.04); }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 4s ease-in-out infinite;
+}
+
+/* Soft glow for risk pins */
+.glow-high {
+  box-shadow: 0 0 12px rgba(185, 74, 37, 0.5);
+}
+.glow-medium {
+  box-shadow: 0 0 10px rgba(217, 138, 44, 0.4);
+}
+.glow-low {
+  box-shadow: 0 0 8px rgba(64, 86, 66, 0.35);
+}
