@@ -1,4 +1,4 @@
-// Centralized structured data for SwasthyaSetu Homepage / Landing Page
+// Centralized structured data for ArogyaSathi Homepage / Landing Page
 // Aligned with SIH 2026 Problem Statement SIH26133: Rural Public Healthcare Access & Continuity
 
 export const HERO_DATA = {
@@ -7,8 +7,8 @@ export const HERO_DATA = {
   titleEmphasis: 'every',
   titleSuffix: 'village.',
   description:
-    'SwasthyaSetu connects rural citizens, frontline health workers and public healthcare facilities — from first symptoms to consultation, referral, treatment and follow-up.',
-  primaryCta: 'Explore SwasthyaSetu',
+    'ArogyaSathi connects rural citizens, frontline health workers and public healthcare facilities — from first symptoms to consultation, referral, treatment and follow-up.',
+  primaryCta: 'Explore ArogyaSathi',
   secondaryCta: 'How it works',
   signalCard: {
     title: 'HEALTHCARE SIGNAL',

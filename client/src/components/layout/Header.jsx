@@ -32,8 +32,8 @@ export const Header = ({ onSwitchToCitizen, onSwitchToDashboard, onSwitchToAsha 
           <div className="flex items-center">
             <a href="#" className="flex flex-col group">
               <img
-                src="/assets/swasthyasetu-logo.png"
-                alt="SwasthyaSetu"
+                src="/assets/arogyasathi-logo.png"
+                alt="ArogyaSathi"
                 className="h-9 sm:h-11 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.01]"
               />
               <span className="text-[10px] font-sans font-medium text-[#756B60] tracking-tight mt-0.5 pl-0.5">

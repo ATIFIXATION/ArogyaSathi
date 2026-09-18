@@ -40,7 +40,7 @@ export const PlatformPreview = () => {
               <div className="flex items-center gap-2">
                 <span className="w-3 h-3 rounded-full bg-forest animate-pulse" />
                 <span className="text-xs font-mono font-bold tracking-wider text-ink uppercase">
-                  SWASTHYASETU HEALTHCARE OPERATIONS
+                  AROGYASATHI HEALTHCARE OPERATIONS
                 </span>
               </div>
               <span className="text-xs px-2.5 py-0.5 rounded-full bg-paper-light border border-border-soft text-ink-muted">

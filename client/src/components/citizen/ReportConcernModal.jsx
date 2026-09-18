@@ -314,7 +314,7 @@ export const ReportConcernModal = ({ onClose, onSubmitSuccess }) => {
               {/* Safety Boundary Banner */}
               <div className="bg-[#FAF7F2] p-2.5 rounded-xl border border-[#EAE0D2] flex items-center gap-2 text-[11px] text-[#756B60]">
                 <Info className="w-4 h-4 text-[#405642] shrink-0" />
-                <span>SwasthyaSetu assists with care navigation and triage. Clinical diagnosis and treatment decisions are made by qualified healthcare professionals.</span>
+                <span>ArogyaSathi assists with care navigation and triage. Clinical diagnosis and treatment decisions are made by qualified healthcare professionals.</span>
               </div>
             </div>
           )}

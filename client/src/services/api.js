@@ -1,5 +1,5 @@
 /**
- * SwasthyaSetu API Services Client
+ * ArogyaSathi API Services Client
  */
 
 // Helper to make API GET requests

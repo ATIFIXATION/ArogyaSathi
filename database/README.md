@@ -1,6 +1,6 @@
-# SwasthyaSetu Database Seeding & Integration Guide
+# ArogyaSathi Database Seeding & Integration Guide
 
-This directory contains the database seeding assets for the SwasthyaSetu project.
+This directory contains the database seeding assets for the ArogyaSathi project.
 
 ## Database Profile
 * **Database Name:** `swasthyasetu`

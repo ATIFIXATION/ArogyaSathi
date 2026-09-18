@@ -227,7 +227,7 @@ export const AshaDashboard = ({ onSwitchToOfficer, onSwitchToHome }) => {
               <span>&ldquo;Every household visited brings healthcare closer to home.&rdquo;</span>
             </div>
             <p className="text-[10px] text-[#9E9488] mt-1 font-sans tracking-wide">
-              SwasthyaSetu Frontline Healthcare Coordination • Maharashtra District Operations
+              ArogyaSathi Frontline Healthcare Coordination • Maharashtra District Operations
             </p>
           </footer>
         </main>

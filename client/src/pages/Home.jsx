@@ -23,7 +23,7 @@ export const Home = ({ onSwitchToCitizen, onSwitchToDashboard, onSwitchToAsha })
         {/* 02. Hero with Maharashtra Healthcare Access Map */}
         <Hero onAccessCare={onSwitchToCitizen} />
 
-        {/* 03. How SwasthyaSetu Works (Connect → Care → Continue → Impact) */}
+        {/* 03. How ArogyaSathi Works (Connect → Care → Continue → Impact) */}
         <HowItWorks />
 
         {/* 04. Three Connected Roles (Citizen, ASHA Worker, Health Officer) */}

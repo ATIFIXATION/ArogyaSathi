@@ -119,11 +119,11 @@ export const ProblemSection = () => {
               </div>
             </div>
 
-            {/* The SwasthyaSetu Solution */}
+            {/* The ArogyaSathi Solution */}
             <div className="lg:col-span-5 flex flex-col gap-2 bg-paper-light p-4 rounded-xl border border-terracotta/30">
               <div className="flex items-center gap-2 text-xs font-bold text-forest uppercase tracking-wider">
                 <CheckCircle2 className="w-4 h-4 text-forest" />
-                <span>SwasthyaSetu Bridges The Journey</span>
+                <span>ArogyaSathi Bridges The Journey</span>
               </div>
               <h4 className="text-base font-serif font-bold text-ink">
                 Continuous Access & Closed-Loop Referral

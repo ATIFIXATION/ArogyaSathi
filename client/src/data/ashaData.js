@@ -1,4 +1,4 @@
-// Centralized structured data for SwasthyaSetu ASHA Worker Dashboard
+// Centralized structured data for ArogyaSathi ASHA Worker Dashboard
 // Aligned with SIH 2026 Problem Statement SIH26133: Maharashtra Frontline Healthcare Access & Care Coordination
 
 export const ASHA_PROFILE = {

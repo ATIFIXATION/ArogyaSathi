@@ -34,7 +34,7 @@ export const CareJourneySection = () => {
           eyebrow="End-to-End Continuity of Care"
           title="From first symptom to"
           titleEmphasis="complete recovery."
-          subtitle="SwasthyaSetu creates a single unified record that travels with the patient across sub-centres, primary health centres, and district hospitals."
+          subtitle="ArogyaSathi creates a single unified record that travels with the patient across sub-centres, primary health centres, and district hospitals."
           align="center"
           className="mb-14"
         />

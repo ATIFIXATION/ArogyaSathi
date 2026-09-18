@@ -1,4 +1,4 @@
-// Centralized structured demo data for SwasthyaSetu Health Officer Dashboard
+// Centralized structured demo data for ArogyaSathi Health Officer Dashboard
 // Aligned with SIH 2026 Problem Statement SIH26133: Maharashtra Public Healthcare Access & Continuity
 
 export let DISTRICT_OPTIONS = [
@@ -303,7 +303,7 @@ export let AI_INSIGHT_DATA = {
   title: 'AI Healthcare Access Insight',
   summary: 'Priority access gap detected in Nandurbar based on citizen requests, facility capacity, referral backlog and follow-up delays.',
   confidenceScore: 92,
-  modelName: 'SwasthyaSetu Care Continuity Engine v2.4 (Demo)',
+  modelName: 'ArogyaSathi Care Continuity Engine v2.4 (Demo)',
   factors: [
     { label: 'Access Gap Score', value: '78/100 (Severe triage & referral bottleneck)', impact: 'High' },
     { label: 'Demand Velocity', value: '+18% increase in rural consultation requests in 7 days', impact: 'High' },

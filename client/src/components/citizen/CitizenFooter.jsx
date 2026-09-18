@@ -12,12 +12,12 @@ export const CitizenFooter = ({ onSwitchToHome, onSwitchToAsha, onSwitchToDashbo
           {/* Col 1: Brand & Identity */}
           <div className="space-y-3 md:col-span-2">
             <img
-              src="/assets/swasthyasetu-logo.png"
-              alt="SwasthyaSetu"
+              src="/assets/arogyasathi-logo.png"
+              alt="ArogyaSathi"
               className="h-10 w-auto object-contain"
             />
             <p className="text-xs text-[#5A5145] leading-relaxed max-w-md font-sans">
-              SwasthyaSetu connects rural citizens with frontline ASHA workers and public healthcare facilities across Maharashtra, ensuring continuous care from first concern to complete recovery.
+              ArogyaSathi connects rural citizens with frontline ASHA workers and public healthcare facilities across Maharashtra, ensuring continuous care from first concern to complete recovery.
             </p>
             <div className="flex items-center gap-2 text-[11px] text-[#405642] font-semibold">
               <ShieldCheck className="w-4 h-4 text-[#405642]" />
@@ -42,7 +42,7 @@ export const CitizenFooter = ({ onSwitchToHome, onSwitchToAsha, onSwitchToDashbo
           {/* Col 3: Role Switcher & System Portals */}
           <div className="space-y-2">
             <h4 className="font-bold text-[#211C17] uppercase tracking-wider text-[11px]">
-              SwasthyaSetu Portals
+              ArogyaSathi Portals
             </h4>
             <ul className="space-y-1.5 font-medium">
               <li>
@@ -81,7 +81,7 @@ export const CitizenFooter = ({ onSwitchToHome, onSwitchToAsha, onSwitchToDashbo
             <span>&ldquo;Bridging Care. Building Healthier Communities.&rdquo;</span>
           </div>
           <div>
-            SwasthyaSetu Healthcare Access Platform • Maharashtra Rural Deployment
+            ArogyaSathi Healthcare Access Platform • Maharashtra Rural Deployment
           </div>
         </div>
 

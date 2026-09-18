@@ -878,7 +878,7 @@ exports.getAshaCareRequests = async (req, res) => {
         avatarBg: color.bg,
         phone: row.phone,
         address: row.pada_or_sector ? `House #${row.household_number || 'N/A'}, ${row.pada_or_sector}, ${row.community_name || ''}` : `Community Area, ${row.community_name || 'Akkalkuwa'}`,
-        notes: row.notes || 'Care request submitted via SwasthyaSetu Citizen Portal.',
+        notes: row.notes || 'Care request submitted via ArogyaSathi Citizen Portal.',
         verified: isVerified,
         status: row.status,
         severity,
@@ -1428,7 +1428,7 @@ exports.getOfficerAiInsight = async (req, res) => {
     title: 'AI Healthcare Access Insight',
     summary: 'Priority access gap detected in Nandurbar based on citizen requests, facility capacity, referral backlog and follow-up delays.',
     confidenceScore: 92,
-    modelName: 'SwasthyaSetu Care Continuity Engine v2.4 (Demo)',
+    modelName: 'ArogyaSathi Care Continuity Engine v2.4 (Demo)',
     factors: [
       { label: 'Access Gap Score', value: '78/100 (Severe triage & referral bottleneck)', impact: 'High' },
       { label: 'Demand Velocity', value: '+18% increase in rural consultation requests in 7 days', impact: 'High' },

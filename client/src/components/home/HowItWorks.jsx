@@ -18,7 +18,7 @@ export const HowItWorks = () => {
         <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
           <div className="inline-flex items-center justify-center gap-2 text-xs sm:text-sm font-serif font-bold text-terracotta uppercase tracking-widest mb-2">
             <Leaf className="w-4 h-4 text-forest inline" />
-            <span>HOW SWASTHYASETU WORKS</span>
+            <span>HOW AROGYASATHI WORKS</span>
             <Leaf className="w-4 h-4 text-forest inline -scale-x-100" />
           </div>
           <h2 className="text-3xl sm:text-4xl font-serif text-ink font-bold leading-tight tracking-tight mt-1">

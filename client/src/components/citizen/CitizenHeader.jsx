@@ -52,8 +52,8 @@ export const CitizenHeader = ({
         <div className="flex items-center gap-3">
           <a href="#home" onClick={(e) => { e.preventDefault(); onSwitchToHome && onSwitchToHome(); }} className="flex items-center gap-2.5 group">
             <img
-              src="/assets/swasthyasetu-logo.png"
-              alt="SwasthyaSetu"
+              src="/assets/arogyasathi-logo.png"
+              alt="ArogyaSathi"
               className="h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"
             />
           </a>

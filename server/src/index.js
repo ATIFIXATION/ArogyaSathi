@@ -21,6 +21,6 @@ app.use('/api', apiRoutes);
 
 // Server starter
 app.listen(PORT, () => {
-  console.log(`SwasthyaSetu Server booting on http://localhost:${PORT}`);
+  console.log(`ArogyaSathi Server booting on http://localhost:${PORT}`);
   console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
 });

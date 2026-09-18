@@ -1,4 +1,4 @@
-# SwasthyaSetu — PostgreSQL Database Architecture & DDL Specification
+# ArogyaSathi — PostgreSQL Database Architecture & DDL Specification
 
 **Database Target:** PostgreSQL 18 (`swasthyasetu`)  
 **Domain Alignment:** SIH 2026 Problem Statement `SIH26133` (Rural Public Healthcare Access & Continuity)

@@ -13,7 +13,7 @@ export const EarlyWarning = () => {
           eyebrow="Explainable AI Early Warning"
           title="Know when something"
           titleEmphasis="feels different."
-          subtitle="Unlike black-box algorithms, SwasthyaSetu transparently explains the exact epidemiological and environmental reasons behind every flagged risk alert."
+          subtitle="Unlike black-box algorithms, ArogyaSathi transparently explains the exact epidemiological and environmental reasons behind every flagged risk alert."
           align="center"
           className="mb-14"
         />

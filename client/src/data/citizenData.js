@@ -1,4 +1,4 @@
-// Centralized structured data for SwasthyaSetu Citizen Portal
+// Centralized structured data for ArogyaSathi Citizen Portal
 // Aligned with SIH 2026 Problem Statement SIH26133: Healthcare Access & Care Continuity
 
 export const CITIZEN_PROFILE = {

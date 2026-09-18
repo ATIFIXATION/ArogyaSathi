@@ -237,7 +237,7 @@ export const Dashboard = ({ onSwitchToAsha, onSwitchToHome }) => {
               <Leaf className="w-4 h-4 text-[#405642] not-italic inline" />
             </div>
             <p className="text-[10px] text-[#9E9488] mt-1 font-sans tracking-wide">
-              SwasthyaSetu Public Healthcare Access &amp; Continuity Platform • Maharashtra District Operations
+              ArogyaSathi Public Healthcare Access &amp; Continuity Platform • Maharashtra District Operations
             </p>
           </footer>
         </main>

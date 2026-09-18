@@ -51,8 +51,8 @@ export const Sidebar = ({ activeTab, onSelectTab, mobileOpen, onCloseMobile }) =
             <div className="flex flex-col">
               <a href="#/" className="flex items-center gap-2.5 group">
                 <img
-                  src="/assets/swasthyasetu-logo.png"
-                  alt="SwasthyaSetu"
+                  src="/assets/arogyasathi-logo.png"
+                  alt="ArogyaSathi"
                   className="h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-[1.02]"
                 />
               </a>
@@ -124,12 +124,12 @@ export const Sidebar = ({ activeTab, onSelectTab, mobileOpen, onCloseMobile }) =
             />
           </div>
 
-          {/* SwasthyaSetu AI Card */}
+          {/* ArogyaSathi AI Card */}
           <div className="relative z-10 bg-[#2C4938]/95 backdrop-blur-sm border border-[#446652] rounded-xl p-3.5 shadow-lg">
             <div className="flex items-center gap-2 mb-1.5">
               <Sparkles className="w-4 h-4 text-[#E6A868]" />
               <span className="text-xs font-semibold tracking-wide text-[#FAF7F2]">
-                SwasthyaSetu AI
+                ArogyaSathi AI
               </span>
             </div>
             <p className="text-[11px] leading-relaxed text-[#D2E2D5]">

@@ -1,3 +1,3 @@
 # Client
 
-This directory will eventually contain the frontend application for SwasthyaSetu.
+This directory will eventually contain the frontend application for ArogyaSathi.

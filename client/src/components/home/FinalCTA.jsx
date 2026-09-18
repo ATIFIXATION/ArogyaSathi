@@ -58,7 +58,7 @@ export const FinalCTA = ({ onSwitchToDashboard }) => {
             icon={Mail}
             iconPosition="left"
             className="text-sm sm:text-base font-medium px-6 py-3.5 bg-paper-light hover:bg-paper-warm border-border-soft rounded-full"
-            onClick={() => alert('SwasthyaSetu Rural Healthcare Access & Continuity Platform • SIH 2026')}
+            onClick={() => alert('ArogyaSathi Rural Healthcare Access & Continuity Platform • SIH 2026')}
           >
             Contact Team
           </Button>

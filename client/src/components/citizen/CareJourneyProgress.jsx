@@ -24,7 +24,7 @@ export const CareJourneyProgress = ({ onOpenConsultation, stages = CARE_JOURNEY_
               From your first concern to continued care.
             </h2>
             <p className="text-xs sm:text-sm text-[#756B60] mt-1 font-sans">
-              SwasthyaSetu stays with you through diagnosis, pharmacy dispensation, specialist transfers, and home follow-up.
+              ArogyaSathi stays with you through diagnosis, pharmacy dispensation, specialist transfers, and home follow-up.
             </p>
           </div>
 

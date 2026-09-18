@@ -19,8 +19,8 @@ export const Footer = () => {
           {/* Logo and Tagline */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
             <img
-              src="/assets/swasthyasetu-logo.png"
-              alt="SwasthyaSetu - Bridging Care. Building Healthier Communities."
+              src="/assets/arogyasathi-logo.png"
+              alt="ArogyaSathi - Connected Public Healthcare"
               className="h-11 sm:h-12 w-auto object-contain mb-3"
             />
             <p className="text-xs text-ink-muted max-w-sm">
@@ -46,7 +46,7 @@ export const Footer = () => {
         {/* Bottom copyright & disclaimer */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-ink-subtle text-center sm:text-left">
           <div>
-            © 2026 SwasthyaSetu. All rights reserved.
+            © 2026 ArogyaSathi. All rights reserved.
           </div>
           <div>
             Rural Public Healthcare Access &amp; Continuity Platform • Smart India Hackathon 2026
