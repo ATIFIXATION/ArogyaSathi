@@ -8,6 +8,8 @@ import {
 } from 'lucide-react';
 import { RECENT_ALERTS } from '../../data/dashboardData';
 import { AlertDetailModal } from './AlertDetailModal';
+import { useLanguage } from '../../i18n/index.jsx';
+
 
 const iconComponents = {
   AlertOctagon,
@@ -17,6 +19,7 @@ const iconComponents = {
 };
 
 export const AlertList = ({ onSelectAlert, onRefresh }) => {
+  const { t, tStatus } = useLanguage();
   const [selectedAlert, setSelectedAlert] = useState(null);
   const [showAll, setShowAll] = useState(false);
 
@@ -34,14 +37,14 @@ export const AlertList = ({ onSelectAlert, onRefresh }) => {
       {/* Header */}
       <div className="flex items-center justify-between mb-3.5">
         <h2 className="text-base sm:text-lg font-serif font-bold text-[#211C17]">
-          Recent Service Alerts
+          {t('officer.alertListTitle', 'Recent Service Alerts')}
         </h2>
         <button
           type="button"
           onClick={() => setShowAll(!showAll)}
           className="text-xs font-semibold text-[#B94A25] hover:text-[#9E3E20] hover:underline transition-colors"
         >
-          {showAll ? 'Show Less' : 'View All'}
+          {showAll ? t('actions.showLess', 'Show Less') : t('actions.viewAll', 'View All')}
         </button>
       </div>
 
@@ -77,7 +80,7 @@ export const AlertList = ({ onSelectAlert, onRefresh }) => {
                           : '#405642'
                     }}
                   >
-                    {alert.severity}
+                    {tStatus(alert.severity)}
                   </div>
                   <h4 className="text-xs sm:text-[13px] font-serif font-bold text-[#211C17] leading-tight truncate group-hover:text-[#B94A25] transition-colors">
                     {alert.title}

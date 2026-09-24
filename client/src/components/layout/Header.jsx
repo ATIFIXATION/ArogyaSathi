@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, ChevronDown, User, ArrowRight, ShieldCheck, Activity, Users, HeartPulse } from 'lucide-react';
+import { LanguageSelector } from '../ui/LanguageSelector';
 
 export const Header = ({ onSwitchToCitizen, onSwitchToDashboard, onSwitchToAsha }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -97,8 +98,9 @@ export const Header = ({ onSwitchToCitizen, onSwitchToDashboard, onSwitchToAsha 
             })}
           </nav>
 
-          {/* Desktop Right Action: Login Dropdown */}
+          {/* Desktop Right Action: Language Selector & Login Dropdown */}
           <div className="hidden md:flex items-center space-x-3.5">
+            <LanguageSelector />
             <div className="relative">
               <button
                 type="button"
@@ -200,6 +202,9 @@ export const Header = ({ onSwitchToCitizen, onSwitchToDashboard, onSwitchToAsha 
             ))}
           </nav>
           <div className="pt-4 border-t border-border-soft/60 flex flex-col gap-2">
+            <div className="flex justify-center pb-2">
+              <LanguageSelector />
+            </div>
             <button
               onClick={() => {
                 setMobileMenuOpen(false);

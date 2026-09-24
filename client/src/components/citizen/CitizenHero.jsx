@@ -9,7 +9,12 @@ import {
   PhoneCall
 } from 'lucide-react';
 
+import { useLanguage } from '../../i18n/index.jsx';
+
+
 export const CitizenHero = ({ onFindCare, onReportConcern }) => {
+  const { t } = useLanguage();
+
   return (
     <section className="relative pt-6 sm:pt-10 pb-10 sm:pb-14 overflow-hidden">
       {/* Background Natural Substrate */}
@@ -29,13 +34,12 @@ export const CitizenHero = ({ onFindCare, onReportConcern }) => {
 
             {/* Main Headline */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[54px] font-serif font-bold text-[#211C17] leading-[1.12] tracking-tight">
-              Your healthcare journey, <br className="hidden sm:inline" />
-              <span className="text-[#B94A25] italic font-serif">connected.</span>
+              {t('citizen.welcomeTitle', 'Your healthcare journey, connected.')}
             </h1>
 
             {/* Supporting Copy */}
             <p className="text-sm sm:text-base md:text-lg text-[#5A5145] leading-relaxed max-w-2xl font-sans">
-              Find care, talk to healthcare professionals, manage referrals and stay connected with your follow-up — all in one place.
+              {t('home.heroSubtitle', 'Find care, talk to healthcare professionals, manage referrals and stay connected with your follow-up — all in one place.')}
             </p>
 
             {/* CTAs */}
@@ -45,7 +49,7 @@ export const CitizenHero = ({ onFindCare, onReportConcern }) => {
                 onClick={onFindCare}
                 className="px-6 py-3.5 bg-[#B94A25] hover:bg-[#A53E1D] text-white rounded-xl text-sm font-semibold transition-all shadow-md hover:shadow-lg flex items-center gap-2 group cursor-pointer"
               >
-                <span>Find Care</span>
+                <span>{t('actions.scheduleVisit', 'Find Care')}</span>
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </button>
 
@@ -55,7 +59,7 @@ export const CitizenHero = ({ onFindCare, onReportConcern }) => {
                 className="px-6 py-3.5 bg-[#FAF7F2] hover:bg-[#EFE5D5] border-2 border-[#B94A25] text-[#B94A25] rounded-xl text-sm font-semibold transition-all shadow-2xs flex items-center gap-2 cursor-pointer"
               >
                 <HeartPulse className="w-4 h-4" />
-                <span>Report a Health Concern</span>
+                <span>{t('actions.reportConcern', 'Report a Health Concern')}</span>
               </button>
             </div>
 

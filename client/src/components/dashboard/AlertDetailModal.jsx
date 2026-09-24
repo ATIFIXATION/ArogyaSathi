@@ -12,8 +12,11 @@ import {
   Loader2
 } from 'lucide-react';
 import { authorizeIntervention } from '../../services/api';
+import { useLanguage } from '../../i18n/index.jsx';
+
 
 export const AlertDetailModal = ({ alert: alertItem, onClose, onInterventionSuccess }) => {
+  const { t, tStatus } = useLanguage();
   const [isSubmitting, setIsSubmitting] = useState(false);
   if (!alertItem) return null;
 
@@ -66,7 +69,7 @@ export const AlertDetailModal = ({ alert: alertItem, onClose, onInterventionSucc
                   : 'bg-[#405642] text-white'
               }`}
             >
-              {alertItem.severity}
+              {tStatus(alertItem.severity)}
             </span>
             <span className="text-xs text-[#756B60] font-medium flex items-center gap-1">
               <Clock className="w-3.5 h-3.5" />
@@ -172,12 +175,12 @@ export const AlertDetailModal = ({ alert: alertItem, onClose, onInterventionSucc
             {isSubmitting ? (
               <>
                 <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                <span>Authorizing...</span>
+                <span>{t('actions.loading', 'Authorizing...')}</span>
               </>
             ) : (
               <>
                 <CheckCircle2 className="w-3.5 h-3.5" />
-                <span>Assign Intervention</span>
+                <span>{t('officer.authorizeBtn', 'Assign Intervention')}</span>
               </>
             )}
           </button>

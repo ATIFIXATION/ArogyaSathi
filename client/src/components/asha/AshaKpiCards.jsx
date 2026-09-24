@@ -6,13 +6,17 @@ import {
   Clock
 } from 'lucide-react';
 import { ASHA_KPI_DATA } from '../../data/ashaData';
+import { useLanguage } from '../../i18n/index.jsx';
+
 
 export const AshaKpiCards = ({ onCardClick }) => {
+  const { t } = useLanguage();
+
   const cards = [
     {
       id: 'visits-today',
       value: '12',
-      title: 'Visits Today',
+      title: t('asha.kpiVisitsToday', 'Visits Today'),
       icon: Home,
       iconBg: 'bg-[#EAF0E6] text-[#405642]',
       subtextNode: (
@@ -26,7 +30,7 @@ export const AshaKpiCards = ({ onCardClick }) => {
     {
       id: 'care-requests',
       value: '7',
-      title: 'Citizen Care Requests',
+      title: t('asha.kpiCareRequests', 'Citizen Care Requests'),
       icon: FileText,
       iconBg: 'bg-[#FBF0EB] text-[#B94A25]',
       subtextNode: (
@@ -38,7 +42,7 @@ export const AshaKpiCards = ({ onCardClick }) => {
     {
       id: 'pending-referrals',
       value: '4',
-      title: 'Pending Referrals',
+      title: t('asha.kpiPendingReferrals', 'Pending Referrals'),
       icon: RotateCw,
       iconBg: 'bg-[#EBF2F7] text-[#3D6B8C]',
       subtextNode: (
@@ -50,7 +54,7 @@ export const AshaKpiCards = ({ onCardClick }) => {
     {
       id: 'followups-due',
       value: '6',
-      title: 'Follow-ups Due',
+      title: t('asha.kpiFollowupsDue', 'Follow-ups Due'),
       icon: Clock,
       iconBg: 'bg-[#FDF0E7] text-[#D45E28]',
       subtextNode: (

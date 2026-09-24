@@ -11,6 +11,8 @@ import {
   Check
 } from 'lucide-react';
 import { ASHA_PROFILE } from '../../data/ashaData';
+import { LanguageSelector } from '../ui/LanguageSelector';
+
 
 export const AshaHeader = ({
   onToggleSidebar,
@@ -56,8 +58,9 @@ export const AshaHeader = ({
             </div>
           </div>
 
-          {/* Right Controls: Notifications & Profile */}
+          {/* Right Controls: Language Selector & Notifications & Profile */}
           <div className="flex items-center gap-2.5 sm:gap-3.5 ml-auto">
+            <LanguageSelector />
             {/* Notification Bell Button */}
             <div className="relative">
               <button

@@ -15,6 +15,8 @@ import {
   ShieldCheck
 } from 'lucide-react';
 import { CITIZEN_PROFILE, CITIZEN_NOTIFICATIONS } from '../../data/citizenData';
+import { LanguageSelector } from '../ui/LanguageSelector';
+
 
 export const CitizenHeader = ({
   onSwitchToAsha,
@@ -84,8 +86,9 @@ export const CitizenHeader = ({
           ))}
         </nav>
 
-        {/* Right Controls: Notifications + Citizen Profile + Mobile Menu Button */}
+        {/* Right Controls: Language Selector + Notifications Bell + Citizen Profile + Mobile Menu Button */}
         <div className="flex items-center gap-2.5 sm:gap-3.5">
+          <LanguageSelector />
           {/* Notifications Bell */}
           <div className="relative">
             <button

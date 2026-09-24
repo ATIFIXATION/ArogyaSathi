@@ -9,6 +9,8 @@ import {
   ExternalLink
 } from 'lucide-react';
 import { DISTRICT_OPTIONS, DATE_RANGE_OPTIONS, OFFICER_PROFILE } from '../../data/dashboardData';
+import { LanguageSelector } from '../ui/LanguageSelector';
+
 
 export const TopHeader = ({
   selectedDistrict,
@@ -67,6 +69,7 @@ export const TopHeader = ({
           <div className="flex flex-col items-end gap-2 ml-auto">
             {/* Top Control Strip */}
             <div className="flex items-center flex-wrap gap-2.5 sm:gap-3">
+              <LanguageSelector />
               {/* District Selector Pill */}
               <div className="relative">
                 <button

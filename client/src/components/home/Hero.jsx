@@ -13,7 +13,12 @@ import {
 import { Button } from '../ui/Button';
 import { HERO_DATA } from '../../data/homeData';
 
+import { useLanguage } from '../../i18n/index.jsx';
+
+
 export const Hero = () => {
+  const { t } = useLanguage();
+
   return (
     <section className="relative overflow-hidden pt-6 pb-14 md:pt-10 md:pb-24">
       {/* Botanical background watermarks */}
@@ -44,15 +49,14 @@ export const Hero = () => {
               </span>
             </div>
 
-            {/* Main Title with Terracotta Italic Emphasis */}
-            <h1 className="text-[36px] sm:text-[46px] md:text-[52px] lg:text-[54px] xl:text-[60px] font-serif text-ink font-normal leading-[1.12] tracking-tight">
-              {HERO_DATA.titlePrefix}<br />
-              reaches <span className="italic text-terracotta font-serif font-normal">{HERO_DATA.titleEmphasis}</span> {HERO_DATA.titleSuffix}
+            {/* Main Title */}
+            <h1 className="text-[32px] sm:text-[42px] md:text-[48px] lg:text-[46px] xl:text-[52px] font-serif text-ink font-normal leading-[1.14] tracking-tight">
+              {t('home.heroTitle', HERO_DATA.titlePrefix + ' ' + HERO_DATA.titleEmphasis + ' ' + HERO_DATA.titleSuffix)}
             </h1>
 
             {/* Supporting Paragraph */}
             <p className="mt-4 sm:mt-5 text-base sm:text-lg text-ink-muted leading-relaxed font-sans font-normal max-w-xl">
-              {HERO_DATA.description}
+              {t('home.heroSubtitle', HERO_DATA.description)}
             </p>
 
             {/* Action Buttons */}
